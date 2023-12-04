@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,400;0,600;0,700;0,900;1,100;1,400;1,600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- layout tổng -->
+    <div class="container">
+      <!-- phần đầu -->
+      <div class="head">
+        <img
+          class="head-logo"
+          src="https://tse4.mm.bing.net/th?id=OIP.hDzShzA2r2zK6GJBtof9RwAAAA&pid=Api&P=0&h=180"
+          alt=""
+        />
+        <form class="head-form">
+          <button class="head-form-button">
+            <i class="fa-solid fa-phone"></i>
+            Điện thoại:0948 713 366
+          </button>
+          <button class="head-form-button">
+            <i class="fa-solid fa-envelope"></i>
+            Email: Info@Japantravel.com
+          </button>
+          <input class="head-form-input" type="text" placeholder="Tìm kiếm" />
+          <i class="input-icon fa-solid fa-magnifying-glass"></i>
+          <button class="head-form-button">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <button class="head-form-button">
+            <i class="fa-solid fa-language"></i>
+          </button>
+        </form>
+      </div>
+      <!-- phần thanh nav head -->
+      <ul class="nav-list-iteam">
+          <li class="nav-iteam">
+            <i class="fa-solid fa-house"></i>
+            Trang chủ
+          </li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-address-card"></i>
+            Giới thiệu
+          </li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-address-card"></i>
+            Tour trong nước
+          </li>
+          <li class="nav-iteam">
+              <i class="fa-solid fa-earth-americas"></i>
+              Tour nước ngoài
+            </i>
+          </li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-leaf"></i>
+            Dịch vụ
+          </li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-blog"></i>
+            Blog - Tin tức
+          </li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-image"></i>
+            Thư viện</li>
+          <li class="nav-iteam">
+            <i class="fa-solid fa-paper-plane"></i>
+            Liên hệ</li>
+      </ul>
+      <!-- phần nội dung -->
+      <div class="content">
+        <div class="content-top">
+            <button class="content-background-iteam">
+              <i class="fa-solid fa-less-than content-iteam" color="white"></i>
+            </button>
+            <button class="content-background-iteam">
+              <i class="fa-solid fa-greater-than content-iteam" color="white"></i>
+            </button>
+          </div>
+          <div class="content-bot">
+            <div class="content-bot-heading"><h1>Tìm kiếm Tour</h1></div>
+            <form class="content-form">
+            <div class="content-form-group">
+              <label class="form-label" for="">Từ khoá</label>
+              <input class="form-input" type="text" placeholder="Tour Hà Nội- Tokyo">
+            </div>
+            <div class="content-form-group">
+              <label class="form-label" for="">Ngày khởi hành</label>
+              <input class="form-input" type="date" >
+            </div>
+            <div class="content-form-group">
+              <label class="form-label" for="type">Loại hình</label>
+              <select class="form-input" id="type">
+                <option value="Gia đình">Gia đình</option>
+                <option value="Khách lẻ">Khách lẻ</option>
+                <option value="Công ty">Công ty</option>
+                </select>
+            </div>
+            <div class="content-form-group">
+              <label class="form-label" for="address">Nơi khởi hành</label>
+              <select class="form-input" id="address" >
+                <option value="Gia đình">Hà Nội</option>
+                <option value="Khách lẻ">Đà Nẵng</option>
+                <option value="Công ty">TP.Hồ Chí Minh</option>
+                </select>
+            </div>
+            <div class="content-form-group">
+              <label class="form-label" for="service">Dịch vụ</label>
+              <select class="form-input" id="service" >
+                <option value="Tắm onsen">Tắm onsen</option>
+                <option value="Ngắm lá đỏ">Ngắm lá đỏ</option>
+                <option value="Leo núi Phú sĩ">Leo núi Phú sĩ</option>
+                </select>
+            </div>
+            <div class="content-form-group">
+              <label class="form-label" for="monney">Khoảng giá</label>
+              <select class="form-input" id="monney">
+                <option value="Từ 10.000.000-15.000.000">Từ 10.000.000-15.000.000</option>
+                <option value="Từ 15.000.000-20.000.000">Từ 15.000.000-20.000.000</option>
+                <option value="Từ 20.000.000-25.000.000">Từ 20.000.000-25.000.000</option>
+                </select>
+            </div>
+          </form>
+          <div class="content-button-group">
+            <button class="content-button">TÌM KIẾM</button></div>
+          </div>
+        </div>
+      </div>
+      <!-- thanh nav footer -->
+        <ul class="nav-footer-list">
+          <li class="nav-footer-iteam">
+            <div class="footer-top-iteam"><i class="fa-solid fa-plane"></i></div></i>
+            VÉ MÁY BAY <br>Giá rẻ, nhiều khuyến mãi hấp dẫn </li>
+          <li class="nav-footer-iteam">
+            <div class="footer-top-iteam"><i class="fa-solid fa-hotel"></i></div></i>
+            KHÁCH SẠN <br>Khách sạn tốt nhất </li>
+          <li class="nav-footer-iteam">
+            <div class="footer-top-iteam"><i class="fa-solid fa-car"></i></i></div></i>
+            THUÊ XE <br>Dịch vụ thuê xe giá tốt nhất </li>
+          <li class="nav-footer-iteam">
+            <div class="footer-top-iteam"><i class="fa-solid fa-passport"></i></i></div></i>
+            VISA <br>Visa đơn giản, thủ tục nhanh rẻ </li>
+           
+        </ul>
+      
+      <!-- phần booter -->
+      <div class="footer">
+        <div class="footer-top">
+          <img
+            class="footer-logo"
+            src="https://tse4.mm.bing.net/th?id=OIP.hDzShzA2r2zK6GJBtof9RwAAAA&pid=Api&P=0&h=180"
+            alt=""
+          />
+          <div class="footer-info">
+            <h3 class="footer-info-heading">THÔNG TIN LIÊN HỆ</h3>
+            <ul class="footer-info-list">
+              <li class="footer-list">
+                <i class="fa-solid fa-house"></i>
+                Căn 18 BTLK, Khu B, Embassy Garden,<br>Phường Xuân Tảo, Quận Bắc Từ Liêm,<br>Thành phố Hà Nội
+              </li>              
+              <li class="footer-list"><i class="fa-solid fa-phone"></i>Hotline: 0948 714 366</li>              
+              <li class="footer-list"><i class="fa-solid fa-envelope"></i>Email: Info@japantravel.com</li>              
+              <li class="footer-list"><i class="fa-solid fa-earth-americas"></i>Website: www.japantravel.com</li>              
+            </ul>
+          </div>
+          <div class="footer-info">
+            <h3 class="footer-info-heading">Tour trong nước</h3>
+            <ul class="footer-info-list" >
+              <li class="footer-list">Tour miền Bắc</li>
+              <li class="footer-list">Tour miền Trung</li>
+              <li class="footer-list">Tour miền Nam</li>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <h3 class="footer-info-heading">Tour nước ngoài</h3>
+            <ul class="footer-info-list" >
+              <li class="footer-list">Tour châu Âu</li>
+              <li class="footer-list">Tour châu Á</li>
+              <li class="footer-list">Tour châu Mỹ</li>
+            </ul>
+          </div>
+          <div class="footer-info fanpage">
+            <h3 class="footer-info-heading">FANPAGE FACEBOOK
+              <div class="fanpage-img">
+                <div class="fanpage-top">
+                  <img class="fanpage-top-img" src="https://tse4.mm.bing.net/th?id=OIP.hDzShzA2r2zK6GJBtof9RwAAAA&pid=Api&P=0&h=180" alt=""><span>Japan Travel <br>1.520 người theo dõi</span>
+                </div>
+                <div class="fanpage-bot">
+                  <button class="fanpage-button">Theo dõi trang</button>
+                  <button class="fanpage-button">Chia sẻ</button>
+                </div>
+              </div>
+            </h3>
+          </div>
+        </div>
+        <div class="footer-bot"> © 2023 Japan Travel </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
